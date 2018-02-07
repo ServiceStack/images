@@ -1,7 +1,7 @@
 {
   "name": "@servicestack/images",
   "author": "ServiceStack",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Collection of free images and resources for Websites and Apps",
   "repository": {
     "type": "git",
