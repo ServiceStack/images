@@ -14,10 +14,6 @@
   ],
   "homepage": "https://github.com/ServiceStack/images",
   "main": "index.js",
-  "files": [
-    "*.js",
-    "README.md"
-  ],
   "dependencies": {},
   "devDependencies": {}
 }
