@@ -1,18 +1,22 @@
 {
-    "name": "@servicestack/images",
-    "author": "ServiceStack",
-    "version": "0.0.1",
-    "description": "Collection of free images and resources for Websites and Apps",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ServiceStack/images.git"
-    },
-    "keywords": ["servicestack", "images", "hero" ],
-    "homepage": "https://github.com/ServiceStack/images",
-    "main": "index.js",
-    "files": ["*.js"],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
-  }
+  "name": "@servicestack/images",
+  "author": "ServiceStack",
+  "version": "0.0.2",
+  "description": "Collection of free images and resources for Websites and Apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ServiceStack/images.git"
+  },
+  "keywords": [
+    "servicestack",
+    "images",
+    "hero"
+  ],
+  "homepage": "https://github.com/ServiceStack/images",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
