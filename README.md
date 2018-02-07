@@ -13,7 +13,7 @@ From web page:
 ```html
 <script src="https://servicestack.github.io/images/heroes.js" />
 
-<script>document.write(`<img src="${heroes.random()}">`);</script>
+<script>document.write(`<img src="${heroes.random()}">`)</script>
 ```
 
 From a npm-based Web App:
