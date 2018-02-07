@@ -28,7 +28,7 @@ import { heroes } from "@servicestack/images";
 
 ### React Example
 
-```js
+```jsx
 const Hero = <img src={heroes.random()} />;
 ```
 
@@ -52,7 +52,7 @@ export default {
 
 ### dependency-free
 
-[heroes.js](https://github.com/ServiceStack/images/blob/master/heroes.js) doesn't have any dependencies so can copied and used locally:
+As [heroes.js](https://github.com/ServiceStack/images/blob/master/heroes.js) doesn't have any dependencies it can also be copied and used locally:
 
     $ curl https://servicestack.github.io/images/heroes.js -o heroes.js
 
