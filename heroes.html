@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>heroes examples</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+            text-align: center;
+        }
+        img {
+            max-height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://servicestack.github.io/images/heroes.js"></script>
+
+    <h2>heroes.random()</h2>
+    <script>document.write(`<img src="${heroes.random()}">`);</script>
+
+    <h2>heroes.daily()</h2>
+    <script>document.write(`<img src="${heroes.daily()}">`);</script>
+
+    <h2>heroes.hourly()</h2>
+    <script>document.write(`<img src="${heroes.hourly()}">`);</script>
+
+    <h2>heroes.static('foo')</h2>
+    <script>document.write(`<img src="${heroes.static('foo')}">`);</script>
+
+    <h2>heroes.static('bar')</h2>
+    <script>document.write(`<img src="${heroes.static('bar')}">`);</script>
+
+    <h2>heroes.get(1)</h2>
+    <script>document.write(`<img src="${heroes.get(1)}">`);</script>
+
+    <h2>heroes.get(1000000)</h2>
+    <script>document.write(`<img src="${heroes.get(1000000)}">`);</script>
+</body>
+</html>
