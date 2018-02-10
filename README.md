@@ -6,6 +6,22 @@ The [heroes.js](https://github.com/ServiceStack/images/blob/master/heroes.js) mo
 
 > Live Example: [/heroes](https://servicestack.github.io/images/heroes)
 
+# api
+
+The different API's lets you control which hero to get and the frequency it changes:
+
+```js
+heroes.random()          // a random hero each time
+heroes.daily()           // the same hero per day
+heroes.hourly()          // the same hero per hour
+heroes.static('foo')     // the same hero for this string constant
+heroes.static('foo',10)  // the same hero + 10 for this string constant
+heroes.get(1)            // the first hero
+heroes.get(1000000)      // the hero at mod length
+heroes.images            // the array of hero image names
+heroes.baseUrl           //= https://servicestack.github.io/images/ 
+```
+
 # usage
 
 From web page:
