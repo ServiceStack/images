@@ -1,6 +1,6 @@
 # images
 
-Hand picked curated collection of beautiful free images from [unsplash.com](https://unsplash.com) that's an easy drop into any Website served from GitHub's CDN.
+A growing hand-picked curated collection of beautiful free images from [unsplash.com](https://unsplash.com) that's an easy drop into any Website served from GitHub's CDN.
 
 The [heroes.js](https://github.com/ServiceStack/images/blob/master/heroes.js) module returns different URLs to 2560x1000 [/hero](https://github.com/ServiceStack/images/tree/master/hero) images ideal for usage in hero backgrounds.
 
@@ -12,12 +12,13 @@ The different API's lets you control which hero to get and the frequency it chan
 
 ```js
 heroes.random()          // a random hero each time
-heroes.daily()           // the same hero per day
-heroes.hourly()          // the same hero per hour
+heroes.daily()           // the same hero for the day
+heroes.hourly()          // the same hero for the hour
 heroes.static('foo')     // the same hero for this string constant
 heroes.static('foo',10)  // the same hero + 10 for this string constant
 heroes.get(1)            // the first hero
-heroes.get(1000000)      // the hero at mod length
+heroes.get(1000000)      // the hero at mod length 1000000
+
 heroes.images            // the array of hero image names
 heroes.baseUrl           //= https://servicestack.github.io/images/ 
 ```
