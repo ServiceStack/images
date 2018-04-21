@@ -1,6 +1,6 @@
 # images
 
-Collection of free images and resources for Websites and Apps served from GitHub's CDN.
+Hand picked curated collection of beautiful free images from [unsplash.com](https://unsplash.com) that's an easy drop into any Website served from GitHub's CDN.
 
 The [heroes.js](https://github.com/ServiceStack/images/blob/master/heroes.js) module returns different URLs to 2560x1000 [/hero](https://github.com/ServiceStack/images/tree/master/hero) images ideal for usage in hero backgrounds.
 
